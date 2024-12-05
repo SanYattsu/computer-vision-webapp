@@ -28,14 +28,14 @@ cd web-project/
 make_enviroment.ps1
 
 # Запустите приложение (чтобы закрыть нажмите - CTRL-C)
-python object_detector.py
+python object-detection.py
 ```
 
 Проект будет доступен по адресу [http:///localhost:8080](http:///localhost:8080)
 
 ## Используемые библиотеки
 
-- **ultralytics** для модели YOLOv8.
+- **ultralytics** для модели YOLOv10.
 - **flask** для создания веб-приложения Flask, получения запросов от внешнего интерфейса и отправки ему ответов.
 - **waitress** для запуска веб-сервера и обслуживания на нем веб-приложения Flask.
 - **PIL** для загрузки файла как объекта изображения, необходимого для YOLO.
@@ -45,4 +45,4 @@ python object_detector.py
 
 - [Осваиваем компьютерное зрение](https://habr.com/ru/articles/461365/)
 - [Описание модуля ultralytics](https://github.com/ultralytics/ultralytics)
-- [Как обнаруживать объекты в изображениях с помощью YOLO-v8](https://www.freecodecamp.org/news/how-to-detect-objects-in-images-using-yolov8/)
+- [Как обнаруживать объекты в изображениях с помощью YOLO](https://www.freecodecamp.org/news/how-to-detect-objects-in-images-using-yolov8/)
